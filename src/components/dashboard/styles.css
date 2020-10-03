@@ -1,0 +1,8 @@
+.bookmark-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repo img {
+  height: 40px;
+}

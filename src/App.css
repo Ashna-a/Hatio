@@ -28,6 +28,95 @@
   color: #61dafb;
 }
 
+.wrapping-container {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://storage.googleapis.com/afs-prod/media/afs:Medium:6906200015/775.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  background: #fff;
+  width: 30%;
+  margin: auto;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  padding: 45px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.login-input {
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.text-primary {
+  color: black;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 7px 15px;
+  background: blue;
+  border: 1px solid blue;
+  box-shadow: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background: blue;
+  border: 1px solid blue;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search-btn {
+  position: absolute;
+  padding: 0px;
+  background: none;
+  border: 1px solid #ccc;
+}
+
+.search-btn:hover,
+.search-btn:active,
+.search-btn:focus {
+  background: none;
+  border: 1px solid #ccc;
+}
+
+.search-btn img {
+  height: 33px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
